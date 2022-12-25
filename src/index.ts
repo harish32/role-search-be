@@ -23,7 +23,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-app.use("/", routes.default);
+app.use("/api", routes.default);
 
 const port = 5555;
 app.listen(port, () => {

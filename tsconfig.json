@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "outDir": "build",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
